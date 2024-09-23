@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">PPAPB-TicketApp</string>
+    <string name="title_main">Pemesanan\nTiket Kereta</string>
+    <string name="nama_pemesan">Nama Pemesan</string>
+    <string name="pilih_tanggal">Pilih Tanggal</string>
+    <string name="jam_keberangkatan">Jam Keberangkatan</string>
+    <string name="pesan_tiket">Pesan Tiket</string>
+    <string name="konfirmasi_pemesanan">Konfirmasi Pemesanan</string>
+    <string name="tarif_tiket">Tarif Tiket</string>
+    <string name="batal">Batal</string>
+    <string name="beli">Beli</string>
+    <string name="succesimg">succesImg</string>
 </resources>

@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pemesanan\nTiket Kereta"
+        android:text="@string/title_main"
         android:textStyle="bold"
         android:textAlignment="center"
         android:textSize="30sp"
@@ -22,8 +22,9 @@
         android:layout_height="wrap_content"
         android:background="@drawable/background"
         android:layout_marginBottom="16dp"
-        android:padding="10dp"
-        android:hint="Nama Pemesan"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="13dp"
+        android:hint="@string/nama_pemesan"
         android:textSize="13sp"
         android:textStyle="bold"
         android:drawableStart="@drawable/baseline_person_24"
@@ -38,7 +39,7 @@
         android:drawableStart="@drawable/baseline_calendar_month_24"
         android:drawablePadding="12dp"
         android:background="@drawable/background"
-        android:hint="Pilih Tanggal"
+        android:hint="@string/pilih_tanggal"
         android:layout_marginBottom="16dp" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -50,7 +51,7 @@
         android:drawableStart="@drawable/baseline_access_time_24"
         android:drawablePadding="12dp"
         android:background="@drawable/background"
-        android:hint="Jam Keberangkatan"
+        android:hint="@string/jam_keberangkatan"
         android:layout_marginBottom="16dp" />
 
     <LinearLayout
@@ -66,7 +67,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@null"
-            android:paddingRight="2dp"
+            android:paddingEnd="2dp"
             android:src="@drawable/baseline_location_pin_24"/>
 
         <androidx.appcompat.widget.AppCompatSpinner
@@ -80,7 +81,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/background_blue"
-        android:text="Pesan Tiket"
+        android:text="@string/pesan_tiket"
         android:textColor="@color/white"/>
 
 </LinearLayout>
