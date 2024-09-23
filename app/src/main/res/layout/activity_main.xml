@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pemesanan\nTiket Kereta"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="60dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtPemesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp"
+        android:hint="Nama Pemesan"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:drawablePadding="12dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSelectDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textAlignment="textStart"
+        android:drawableStart="@drawable/baseline_calendar_month_24"
+        android:drawablePadding="12dp"
+        android:background="@drawable/background"
+        android:hint="Pilih Tanggal"
+        android:layout_marginBottom="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSelectTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textAlignment="textStart"
+        android:drawableStart="@drawable/baseline_access_time_24"
+        android:drawablePadding="12dp"
+        android:background="@drawable/background"
+        android:hint="Jam Keberangkatan"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/background"
+        android:layout_marginBottom="60dp"
+        android:paddingHorizontal="10dp"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/spinnerImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:paddingRight="2dp"
+            android:src="@drawable/baseline_location_pin_24"/>
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinnerDestination"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_blue"
+        android:text="Pesan Tiket"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
